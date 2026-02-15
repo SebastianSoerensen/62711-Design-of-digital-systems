@@ -47,10 +47,7 @@ signal D: std_logic_vector(3 downto 0);
 signal D2: std_logic_vector(3 downto 0);
 
 begin
-D2(0) <= D(0) and I(0);
-D2(1) <= D(1) and I(1);
-D2(2) <= D(2) and I(2);
-D2(3) <= D(3) and I(3);
+D2 <= D and I;
 Y <= D2(0) or D2(1) or D2(2) or D2(3);
 
 U2: Decoder_2to4 port map (S => S, D => D );
