@@ -2,9 +2,9 @@
 -- Company: 
 -- Engineer: 
 -- 
--- Create Date: 13.02.2026 10:42:53
+-- Create Date: 15.02.2026 16:11:56
 -- Design Name: 
--- Module Name: Twos_Complement - Behavioral
+-- Module Name: FunctionUnit - Behavioral
 -- Project Name: 
 -- Target Devices: 
 -- Tool Versions: 
@@ -31,12 +31,14 @@ use IEEE.STD_LOGIC_1164.ALL;
 --library UNISIM;
 --use UNISIM.VComponents.all;
 
-entity Twos_Complement is
-    Port ( I_unsigned : in STD_LOGIC;
-           O_twos_comp : out STD_LOGIC);
-end Twos_Complement;
+entity FunctionUnit is
+    Port ( A,B : in STD_LOGIC_VECTOR (7 downto 0);
+           FS3,FS2,FS1,FS0 : in STD_LOGIC;
+           V,C,N,Z : out STD_LOGIC;
+           F : out STD_LOGIC_VECTOR (0 downto 0));
+end FunctionUnit;
 
-architecture Behavioral of Twos_Complement is
+architecture Behavioral of FunctionUnit is
 
 begin
 
