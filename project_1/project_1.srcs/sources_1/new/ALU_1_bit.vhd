@@ -2,9 +2,9 @@
 -- Company: 
 -- Engineer: 
 -- 
--- Create Date: 14.02.2026 10:20:50
+-- Create Date: 20.02.2026 12:49:12
 -- Design Name: 
--- Module Name: RF - Behavioral
+-- Module Name: ALU_1_bit - Behavioral
 -- Project Name: 
 -- Target Devices: 
 -- Tool Versions: 
@@ -31,24 +31,23 @@ use IEEE.STD_LOGIC_1164.ALL;
 --library UNISIM;
 --use UNISIM.VComponents.all;
 
-entity DestinationDecoder is
-    Port (
-        Write : in std_logic;
-        DA : in std_logic_vector(3 downto 0);
-        Load : out std_logic_vector(15 downto 0);
-    );
-end DestinationDecoder;
+entity ALU_1_bit is
+    Port ( C_in : in STD_LOGIC;
+           S1 : in STD_LOGIC;
+           S0 : in STD_LOGIC;
+           A : in STD_LOGIC;
+           B : in STD_LOGIC;
+           C_out : out STD_LOGIC;
+           G : out STD_LOGIC);
+end ALU_1_bit;
 
-architecture Behavioral of DestinationDecoder is
-
-signal EN: std_logic_vector(3 downto 0);
-
+architecture Behavioral of ALU_1_bit is
+signal Y: std_logic;
 
 begin
+Y <= (not B and S1) or (B and S0);
 
 
-Decoder_In: entity work.Decoder_2to4_Enable port map(EN => Write, S => DA(1 downto 0),D => EN );
-GEN_DEC : for i in 0 to 3 generate
-    DEC: entity work.Decoder_2to4_Enable port map(EN => EN(i) , S => DA(3 downto 2), D => Load(4*i+3 downto 4*i));
-end generate;
+FA: entity work.Full_adder port map(A => A, B => Y, C_in => C_in, S => G, C_out => C_out);
+
 end Behavioral;
