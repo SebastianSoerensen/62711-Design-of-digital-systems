@@ -35,12 +35,21 @@ entity FunctionUnit is
     Port ( A,B : in STD_LOGIC_VECTOR (7 downto 0);
            FS3,FS2,FS1,FS0 : in STD_LOGIC;
            V,C,N,Z : out STD_LOGIC;
-           F : out STD_LOGIC_VECTOR (0 downto 0));
+           F : out STD_LOGIC_VECTOR (7 downto 0));
 end FunctionUnit;
 
 architecture Behavioral of FunctionUnit is
 
+signal J,B,H,MUXF: std_logic_vector(7 downto 0);
+signal FS3,FS2: std_logic;
+signal Fsel: std_logic;
+
 begin
 
+ALU: entity work.ALU port map(J_select(0) => FS0, J_Select(1) => FS1, J_Select(2) => FS2,J_Select(3) => FS3,A => A, B => B,V => V, C => C,J => J );
+SHIFT: entity work.Shifter port map(B => B,H => H,H_Select(0) => FS0, H_Select(1) => FS1);
+MUXF: entity work.MUX2x1x8 port map(R => J, S => H, MUX_Select => Fsel, Y => MUXF);
+FS: entity work.FunctionSelect port map(FS3 => FS3, FS2 => FS2, MF => Fsel);
+NegZ: entity work.NegZero port map(MUXF => MUXF, N => N, Z => Z);
 
 end Behavioral;

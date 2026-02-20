@@ -48,7 +48,14 @@ end Datapath;
 
 architecture Behavioral of Datapath is
 
+signal B_Data,D_Data,MUXF,Address_out,Data_out: std_logic_vector(7 downto 0);
+
 begin
 
+
+MUXB: entity work.MUX2x1x8 port map(R => ConstantIn, S => B_Data, MUX_Select => MB, Y => Data_out);
+MUXD: entity work.MUX2x1x8 port map(R => DataIn, S => MUXF, MUX_Select => MD, Y => D_Data);
+FU: entity work.FunctionUnit port map(A => Address_out, B => Data_out, FS3 => FS3, FS2 => FS2, FS1 => FS1, FS0 => FS0, V => V, C => C, N => N, Z => Z, F => MUXF);
+RF: entity work.RegisterFile port map(Reset => Reset, Clk => Clk, RW => RW, DA => DA, AA => AA, BA => BA, D_Data => D_Data, A_Data => Address_out, B_Data => B_Data);
 
 end Behavioral;
