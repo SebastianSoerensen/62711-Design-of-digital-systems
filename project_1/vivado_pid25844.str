@@ -582,3 +582,11 @@ selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ALU.vhd
 // Elapsed time: 19513 seconds
 selectCodeEditor("ALU.vhd", 483, 151); // ae (ALU.vhd)
 // HMemoryUtils.trashcanNow. Engine heap size: 1,213 MB. GUI used memory: 63 MB. Current time: 2/22/26, 6:01:27 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,213 MB. GUI used memory: 64 MB. Current time: 2/22/26, 6:02:08 PM CET
+// Elapsed time: 84 seconds
+selectCodeEditor("ALU.vhd", 371, 134); // ae (ALU.vhd)
+typeControlKey((HResource) null, "ALU.vhd", 'c'); // ae (ALU.vhd)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,213 MB. GUI used memory: 63 MB. Current time: 2/22/26, 6:02:48 PM CET
+selectCodeEditor("ALU.vhd", 338, 236); // ae (ALU.vhd)
+selectCodeEditor("ALU.vhd", 480, 149); // ae (ALU.vhd)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,213 MB. GUI used memory: 64 MB. Current time: 2/22/26, 6:03:28 PM CET
