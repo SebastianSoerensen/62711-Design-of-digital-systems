@@ -58,7 +58,7 @@ begin
 Decoder_EN <= '1';
 
 -- First 2 bits (J_Select(1) , J_Select(0))
-Decoder_FS: entity work.Decoder_2to4_Enable port map(EN => Decoder_EN, S => J_Select(1 downto 0),D => EN );
+Decoder_FS: entity work.Decoder_2to4_Enable port map(EN => Decoder_EN, S => J_Select(1 downto 0), D => EN );
 
 -- Enables a decoder on upper 2 bits (J_select(3 downto 2))
 GEN_DEC : for i in 0 to 3 generate
