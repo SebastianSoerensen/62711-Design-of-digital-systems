@@ -695,3 +695,8 @@ selectCodeEditor("ALU.vhd", 672, 324); // ae (ALU.vhd)
 // HMemoryUtils.trashcanNow. Engine heap size: 1,228 MB. GUI used memory: 86 MB. Current time: 2/22/26, 11:57:27 AM CET
 // Elapsed time: 164 seconds
 selectCodeEditor("ALU.vhd", 582, 207); // ae (ALU.vhd)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,228 MB. GUI used memory: 86 MB. Current time: 2/22/26, 11:58:07 AM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,228 MB. GUI used memory: 87 MB. Current time: 2/22/26, 11:58:47 AM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,228 MB. GUI used memory: 86 MB. Current time: 2/22/26, 11:59:27 AM CET
+// Elapsed time: 118 seconds
+selectCodeEditor("ALU.vhd", 394, 166); // ae (ALU.vhd)
