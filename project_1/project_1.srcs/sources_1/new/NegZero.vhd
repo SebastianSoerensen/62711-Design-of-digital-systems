@@ -40,5 +40,7 @@ architecture Behavioral of NegZero is
 
 begin
 
+Z <= not (MUXF(0) or MUXF(1) or MUXF(2) or MUXF(3) or MUXF(4) or MUXF(5) or MUXF(6) or MUXF(7)); -- If sum of all of MUXF is zero, Z goes high
+N <= MUXF(7); -- If MSB is high, it is negative in 2's complement
 
 end Behavioral;

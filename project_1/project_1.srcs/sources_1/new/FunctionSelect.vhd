@@ -40,5 +40,6 @@ architecture Behavioral of FunctionSelect is
 
 begin
 
+MF <= FS3 AND FS2;
 
 end Behavioral;

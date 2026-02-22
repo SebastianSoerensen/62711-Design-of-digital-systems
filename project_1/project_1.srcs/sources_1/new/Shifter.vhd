@@ -39,7 +39,18 @@ end Shifter;
 
 architecture Behavioral of Shifter is
 
-begin
+signal HS: std_logic_vector(1 downto 0);
 
+begin
+HS <= H_Select;
+
+U0: entity work.MUX_4to1 port map(I(0) => B(0), I(1) => B(1), I(2) => '0' , I(3) => B(0), S => HS, Y => H(0));
+U1: entity work.MUX_4to1 port map(I(0) => B(1), I(1) => B(2), I(2) => B(0), I(3) => B(1), S => HS, Y => H(1));
+U2: entity work.MUX_4to1 port map(I(0) => B(2), I(1) => B(3), I(2) => B(1), I(3) => B(2), S => HS, Y => H(2));
+U3: entity work.MUX_4to1 port map(I(0) => B(3), I(1) => B(4), I(2) => B(2), I(3) => B(3), S => HS, Y => H(3));
+U4: entity work.MUX_4to1 port map(I(0) => B(4), I(1) => B(5), I(2) => B(3), I(3) => B(4), S => HS, Y => H(4));
+U5: entity work.MUX_4to1 port map(I(0) => B(5), I(1) => B(6), I(2) => B(4), I(3) => B(5), S => HS, Y => H(5));
+U6: entity work.MUX_4to1 port map(I(0) => B(6), I(1) => B(7), I(2) => B(5), I(3) => B(6), S => HS, Y => H(6));
+U7: entity work.MUX_4to1 port map(I(0) => B(7), I(1) => '0' , I(2) => B(6), I(3) => B(7), S => HS, Y => H(7));
 
 end Behavioral;
