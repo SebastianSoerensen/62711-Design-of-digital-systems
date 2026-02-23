@@ -1115,3 +1115,33 @@ selectCodeEditor("ALU.vhd", 428, 443); // ae (ALU.vhd)
 // HMemoryUtils.trashcanNow. Engine heap size: 1,213 MB. GUI used memory: 66 MB. Current time: 2/23/26, 6:49:26 AM CET
 // Elapsed time: 36 seconds
 selectCodeEditor("ALU.vhd", 542, 207); // ae (ALU.vhd)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,213 MB. GUI used memory: 66 MB. Current time: 2/23/26, 6:50:06 AM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,213 MB. GUI used memory: 67 MB. Current time: 2/23/26, 6:50:47 AM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,213 MB. GUI used memory: 66 MB. Current time: 2/23/26, 6:51:27 AM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,213 MB. GUI used memory: 67 MB. Current time: 2/23/26, 6:52:08 AM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,213 MB. GUI used memory: 67 MB. Current time: 2/23/26, 6:52:48 AM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,213 MB. GUI used memory: 66 MB. Current time: 2/23/26, 6:53:28 AM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,213 MB. GUI used memory: 66 MB. Current time: 2/23/26, 6:54:09 AM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,213 MB. GUI used memory: 67 MB. Current time: 2/23/26, 6:54:49 AM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,213 MB. GUI used memory: 68 MB. Current time: 2/23/26, 6:55:30 AM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,213 MB. GUI used memory: 67 MB. Current time: 2/23/26, 6:56:10 AM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,213 MB. GUI used memory: 67 MB. Current time: 2/23/26, 6:56:51 AM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,213 MB. GUI used memory: 68 MB. Current time: 2/23/26, 6:57:31 AM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,213 MB. GUI used memory: 67 MB. Current time: 2/23/26, 6:58:12 AM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,213 MB. GUI used memory: 67 MB. Current time: 2/23/26, 6:58:52 AM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,213 MB. GUI used memory: 67 MB. Current time: 2/23/26, 6:59:32 AM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,213 MB. GUI used memory: 67 MB. Current time: 2/23/26, 7:00:13 AM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,213 MB. GUI used memory: 67 MB. Current time: 2/23/26, 7:00:53 AM CET
+// WARNING: HEventQueue.dispatchEvent() is taking  4275646 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,213 MB. GUI used memory: 68 MB. Current time: 2/23/26, 8:12:15 AM CET
+// WARNING: HEventQueue.dispatchEvent() is taking  20445962 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,213 MB. GUI used memory: 67 MB. Current time: 2/23/26, 1:53:05 PM CET
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking 2110 ms to process. Increasing delay to 2000 ms.
+// Elapsed time: 25407 seconds
+selectCodeEditor("ALU.vhd", 722, 522); // ae (ALU.vhd)
+selectCodeEditor("ALU.vhd", 685, 567); // ae (ALU.vhd)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 25h:52m:53s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 25h:52m:56s
