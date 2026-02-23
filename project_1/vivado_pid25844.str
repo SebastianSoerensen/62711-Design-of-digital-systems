@@ -931,3 +931,187 @@ selectCodeEditor("ALU.vhd", 688, 457); // ae (ALU.vhd)
 // HMemoryUtils.trashcanNow. Engine heap size: 1,213 MB. GUI used memory: 64 MB. Current time: 2/22/26, 7:55:08 PM CET
 // Elapsed time: 26 seconds
 selectCodeEditor("ALU.vhd", 267, 524); // ae (ALU.vhd)
+// Elapsed time: 14 seconds
+selectCodeEditor("ALU.vhd", 509, 305); // ae (ALU.vhd)
+// WARNING: HEventQueue.dispatchEvent() is taking  1072927 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,213 MB. GUI used memory: 66 MB. Current time: 2/22/26, 8:13:41 PM CET
+// Elapsed time: 1115 seconds
+selectCodeEditor("ALU.vhd", 297, 241); // ae (ALU.vhd)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,213 MB. GUI used memory: 64 MB. Current time: 2/22/26, 8:14:21 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,213 MB. GUI used memory: 64 MB. Current time: 2/22/26, 8:15:02 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,213 MB. GUI used memory: 64 MB. Current time: 2/22/26, 8:15:42 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,213 MB. GUI used memory: 64 MB. Current time: 2/22/26, 8:16:22 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,213 MB. GUI used memory: 66 MB. Current time: 2/22/26, 8:17:02 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,213 MB. GUI used memory: 64 MB. Current time: 2/22/26, 8:17:42 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,213 MB. GUI used memory: 64 MB. Current time: 2/22/26, 8:18:22 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,213 MB. GUI used memory: 64 MB. Current time: 2/22/26, 8:19:02 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,213 MB. GUI used memory: 64 MB. Current time: 2/22/26, 8:19:42 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,213 MB. GUI used memory: 64 MB. Current time: 2/22/26, 8:20:22 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,213 MB. GUI used memory: 64 MB. Current time: 2/22/26, 8:21:02 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,213 MB. GUI used memory: 64 MB. Current time: 2/22/26, 8:21:42 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,213 MB. GUI used memory: 66 MB. Current time: 2/22/26, 8:22:22 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,213 MB. GUI used memory: 64 MB. Current time: 2/22/26, 8:23:02 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,213 MB. GUI used memory: 64 MB. Current time: 2/22/26, 8:23:42 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,213 MB. GUI used memory: 64 MB. Current time: 2/22/26, 8:24:22 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,213 MB. GUI used memory: 64 MB. Current time: 2/22/26, 8:25:02 PM CET
+// Run Command: PAResourceCommand.PACommandNames_OPEN_SOURCE_FILE
+// Elapsed time: 661 seconds
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Datapath(Behavioral) (Datapath.vhd)]", 1); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Datapath(Behavioral) (Datapath.vhd)]", 1, true, false, false, false, true, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Popup Trigger - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Datapath(Behavioral) (Datapath.vhd)]", 1, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectCodeEditor("ALU.vhd", 666, 370, false, false, false, true, false); // ae (ALU.vhd) - Popup Trigger
+selectCodeEditor("ALU.vhd", 512, 382); // ae (ALU.vhd)
+selectCodeEditor("ALU.vhd", 609, 475); // ae (ALU.vhd)
+typeControlKey((HResource) null, "ALU.vhd", 'v'); // ae (ALU.vhd)
+typeControlKey(null, null, 'z');
+typeControlKey((HResource) null, "ALU.vhd", 'v'); // ae (ALU.vhd)
+typeControlKey(null, null, 'z');
+// HMemoryUtils.trashcanNow. Engine heap size: 1,213 MB. GUI used memory: 66 MB. Current time: 2/22/26, 8:25:42 PM CET
+typeControlKey((HResource) null, "ALU.vhd", 'v'); // ae (ALU.vhd)
+selectCodeEditor("ALU.vhd", 564, 590); // ae (ALU.vhd)
+// Elapsed time: 25 seconds
+selectCodeEditor("ALU.vhd", 397, 363); // ae (ALU.vhd)
+typeControlKey(null, null, 'z');
+selectCodeEditor("ALU.vhd", 432, 442); // ae (ALU.vhd)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,213 MB. GUI used memory: 66 MB. Current time: 2/22/26, 8:26:23 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,213 MB. GUI used memory: 66 MB. Current time: 2/22/26, 8:27:03 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,213 MB. GUI used memory: 66 MB. Current time: 2/22/26, 8:27:43 PM CET
+// Elapsed time: 100 seconds
+selectCodeEditor("ALU.vhd", 364, 340); // ae (ALU.vhd)
+typeControlKey((HResource) null, "ALU.vhd", 'c'); // ae (ALU.vhd)
+selectCodeEditor("ALU.vhd", 364, 340); // ae (ALU.vhd)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,213 MB. GUI used memory: 66 MB. Current time: 2/22/26, 8:28:24 PM CET
+// Elapsed time: 41 seconds
+selectCodeEditor("ALU.vhd", 509, 503); // ae (ALU.vhd)
+typeControlKey((HResource) null, "ALU.vhd", 'v'); // ae (ALU.vhd)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 08h:28m:01s
+selectCodeEditor("ALU.vhd", 484, 565); // ae (ALU.vhd)
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 08h:28m:03s
+// HMemoryUtils.trashcanNow. Engine heap size: 1,213 MB. GUI used memory: 66 MB. Current time: 2/22/26, 8:29:04 PM CET
+// Elapsed time: 56 seconds
+selectCodeEditor("ALU.vhd", 322, 398); // ae (ALU.vhd)
+selectCodeEditor("ALU.vhd", 304, 374); // ae (ALU.vhd)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,213 MB. GUI used memory: 66 MB. Current time: 2/22/26, 8:29:44 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,213 MB. GUI used memory: 66 MB. Current time: 2/22/26, 8:30:25 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,213 MB. GUI used memory: 66 MB. Current time: 2/22/26, 8:31:05 PM CET
+// Elapsed time: 117 seconds
+selectCodeEditor("ALU.vhd", 540, 439); // ae (ALU.vhd)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,213 MB. GUI used memory: 66 MB. Current time: 2/22/26, 8:31:46 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,213 MB. GUI used memory: 66 MB. Current time: 2/22/26, 8:32:26 PM CET
+// Elapsed time: 60 seconds
+selectCodeEditor("ALU.vhd", 485, 514); // ae (ALU.vhd)
+typeControlKey((HResource) null, "ALU.vhd", 'v'); // ae (ALU.vhd)
+typeControlKey(null, null, 'z');
+selectCodeEditor("ALU.vhd", 490, 516); // ae (ALU.vhd)
+typeControlKey((HResource) null, "ALU.vhd", 'v'); // ae (ALU.vhd)
+selectCodeEditor("ALU.vhd", 334, 513); // ae (ALU.vhd)
+selectCodeEditor("ALU.vhd", 355, 563); // ae (ALU.vhd)
+selectCodeEditor("ALU.vhd", 206, 327); // ae (ALU.vhd)
+selectCodeEditor("ALU.vhd", 460, 391); // ae (ALU.vhd)
+selectCodeEditor("ALU.vhd", 317, 460); // ae (ALU.vhd)
+selectCodeEditor("ALU.vhd", 572, 568); // ae (ALU.vhd)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,213 MB. GUI used memory: 66 MB. Current time: 2/22/26, 8:33:06 PM CET
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 08h:32m:32s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 08h:32m:34s
+selectCodeEditor("ALU.vhd", 96, 460); // ae (ALU.vhd)
+selectCodeEditor("ALU.vhd", 75, 461); // ae (ALU.vhd)
+selectCodeEditor("ALU.vhd", 552, 519); // ae (ALU.vhd)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 08h:32m:44s
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("ALU.vhd", 446, 587); // ae (ALU.vhd)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 08h:32m:46s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 08h:32m:52s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 08h:32m:54s
+// Elapsed time: 22 seconds
+selectCodeEditor("ALU.vhd", 377, 426); // ae (ALU.vhd)
+typeControlKey((HResource) null, "ALU.vhd", 'c'); // ae (ALU.vhd)
+selectCodeEditor("ALU.vhd", 377, 426); // ae (ALU.vhd)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,213 MB. GUI used memory: 66 MB. Current time: 2/22/26, 8:33:47 PM CET
+// Elapsed time: 22 seconds
+selectCodeEditor("ALU.vhd", 540, 412); // ae (ALU.vhd)
+selectCodeEditor("ALU.vhd", 519, 282); // ae (ALU.vhd)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,213 MB. GUI used memory: 66 MB. Current time: 2/22/26, 8:34:27 PM CET
+// Elapsed time: 23 seconds
+selectCodeEditor("ALU.vhd", 527, 516); // ae (ALU.vhd)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,213 MB. GUI used memory: 66 MB. Current time: 2/22/26, 8:35:07 PM CET
+// Elapsed time: 39 seconds
+selectCodeEditor("ALU.vhd", 862, 195); // ae (ALU.vhd)
+// Elapsed time: 28 seconds
+selectCodeEditor("ALU.vhd", 559, 225); // ae (ALU.vhd)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,213 MB. GUI used memory: 66 MB. Current time: 2/22/26, 8:35:47 PM CET
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 08h:35m:26s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 08h:35m:28s
+// Elapsed time: 21 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Datapath(Behavioral) (Datapath.vhd)]", 1); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Datapath(Behavioral) (Datapath.vhd), RF : RegisterFile(Behavioral) (RF.vhd)]", 5); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Datapath(Behavioral) (Datapath.vhd), RF : RegisterFile(Behavioral) (RF.vhd), DD : DestinationDecoder(Behavioral) (DestinationDecoder.vhd)]", 7); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Datapath(Behavioral) (Datapath.vhd), RF : RegisterFile(Behavioral) (RF.vhd), DD : DestinationDecoder(Behavioral) (DestinationDecoder.vhd), Decoder_In : Decoder_2to4_Enable(Behavioral) (Decoder_2to4_Enable.vhd)]", 8); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Datapath(Behavioral) (Datapath.vhd), RF : RegisterFile(Behavioral) (RF.vhd), DD : DestinationDecoder(Behavioral) (DestinationDecoder.vhd), Decoder_In : Decoder_2to4_Enable(Behavioral) (Decoder_2to4_Enable.vhd), U1 : Decoder_2to4(Behavioral) (2_to_4_Decoder.vhd)]", 9, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Datapath(Behavioral) (Datapath.vhd), RF : RegisterFile(Behavioral) (RF.vhd), DD : DestinationDecoder(Behavioral) (DestinationDecoder.vhd), Decoder_In : Decoder_2to4_Enable(Behavioral) (Decoder_2to4_Enable.vhd), U1 : Decoder_2to4(Behavioral) (2_to_4_Decoder.vhd)]", 9, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ALU.vhd", 1); // m (PlanAheadTabBaseWorkspace_JideTabbedPane)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Datapath(Behavioral) (Datapath.vhd), RF : RegisterFile(Behavioral) (RF.vhd), DD : DestinationDecoder(Behavioral) (DestinationDecoder.vhd), Decoder_In : Decoder_2to4_Enable(Behavioral) (Decoder_2to4_Enable.vhd)]", 8); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Datapath(Behavioral) (Datapath.vhd), RF : RegisterFile(Behavioral) (RF.vhd), DD : DestinationDecoder(Behavioral) (DestinationDecoder.vhd)]", 7); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,213 MB. GUI used memory: 67 MB. Current time: 2/22/26, 8:36:27 PM CET
+// Elapsed time: 16 seconds
+selectCodeEditor("ALU.vhd", 559, 502); // ae (ALU.vhd)
+// Elapsed time: 23 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "2_to_4_Decoder.vhd", 3); // m (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,213 MB. GUI used memory: 67 MB. Current time: 2/22/26, 8:37:07 PM CET
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Datapath(Behavioral) (Datapath.vhd), RF : RegisterFile(Behavioral) (RF.vhd), DD : DestinationDecoder(Behavioral) (DestinationDecoder.vhd)]", 7); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Datapath(Behavioral) (Datapath.vhd), RF : RegisterFile(Behavioral) (RF.vhd), DD : DestinationDecoder(Behavioral) (DestinationDecoder.vhd), Decoder_In : Decoder_2to4_Enable(Behavioral) (Decoder_2to4_Enable.vhd)]", 8, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Datapath(Behavioral) (Datapath.vhd), RF : RegisterFile(Behavioral) (RF.vhd), DD : DestinationDecoder(Behavioral) (DestinationDecoder.vhd), Decoder_In : Decoder_2to4_Enable(Behavioral) (Decoder_2to4_Enable.vhd)]", 8, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Datapath(Behavioral) (Datapath.vhd), RF : RegisterFile(Behavioral) (RF.vhd), DD : DestinationDecoder(Behavioral) (DestinationDecoder.vhd), Decoder_In : Decoder_2to4_Enable(Behavioral) (Decoder_2to4_Enable.vhd)]", 8, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Datapath(Behavioral) (Datapath.vhd), RF : RegisterFile(Behavioral) (RF.vhd), DD : DestinationDecoder(Behavioral) (DestinationDecoder.vhd), Decoder_In : Decoder_2to4_Enable(Behavioral) (Decoder_2to4_Enable.vhd)]", 8, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // H (PAResourceOtoP.PAViews_CODE, PlanAheadTabCode)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ALU.vhd", 1); // m (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,213 MB. GUI used memory: 67 MB. Current time: 2/22/26, 8:37:47 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,213 MB. GUI used memory: 67 MB. Current time: 2/22/26, 8:38:28 PM CET
+// Elapsed time: 63 seconds
+selectCodeEditor("ALU.vhd", 591, 370); // ae (ALU.vhd)
+selectCodeEditor("ALU.vhd", 421, 244); // ae (ALU.vhd)
+// Elapsed time: 15 seconds
+selectCodeEditor("ALU.vhd", 470, 424); // ae (ALU.vhd)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,213 MB. GUI used memory: 67 MB. Current time: 2/22/26, 8:39:08 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,213 MB. GUI used memory: 67 MB. Current time: 2/22/26, 8:39:48 PM CET
+// Elapsed time: 58 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Arith_Circ.vhd", 2); // m (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,213 MB. GUI used memory: 67 MB. Current time: 2/22/26, 8:40:28 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,213 MB. GUI used memory: 67 MB. Current time: 2/22/26, 8:41:08 PM CET
+// Elapsed time: 78 seconds
+selectCodeEditor("Arith_Circ.vhd", 764, 702); // ae (Arith_Circ.vhd)
+// Elapsed time: 12 seconds
+selectCodeEditor("Arith_Circ.vhd", 469, 385); // ae (Arith_Circ.vhd)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Decoder_2to4_Enable.vhd", 3); // m (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ALU.vhd", 1); // m (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectCodeEditor("ALU.vhd", 595, 379); // ae (ALU.vhd)
+selectCodeEditor("ALU.vhd", 432, 356); // ae (ALU.vhd)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,213 MB. GUI used memory: 67 MB. Current time: 2/22/26, 8:41:48 PM CET
+// Elapsed time: 18 seconds
+selectCodeEditor("ALU.vhd", 322, 551); // ae (ALU.vhd)
+// WARNING: HEventQueue.dispatchEvent() is taking  2168089 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,213 MB. GUI used memory: 67 MB. Current time: 2/22/26, 9:18:15 PM CET
+// WARNING: HEventQueue.dispatchEvent() is taking  24876627 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,213 MB. GUI used memory: 67 MB. Current time: 2/23/26, 4:12:54 AM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,213 MB. GUI used memory: 66 MB. Current time: 2/23/26, 6:49:11 AM CET
+// WARNING: HEventQueue.dispatchEvent() is taking  1206 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 4869 ms. Increasing delay to 3000 ms.
+// Elapsed time: 36446 seconds
+selectCodeEditor("ALU.vhd", 428, 443); // ae (ALU.vhd)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,213 MB. GUI used memory: 66 MB. Current time: 2/23/26, 6:49:26 AM CET
+// Elapsed time: 36 seconds
+selectCodeEditor("ALU.vhd", 542, 207); // ae (ALU.vhd)
