@@ -24,3 +24,6 @@
 start_gui
 open_project C:/Users/olive/OneDrive/Dokumenter/GitHub/62711-Design-of-digital-systems/project_1/project_1.xpr
 update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1

@@ -39,7 +39,7 @@ generic (n: integer := 16; width: integer:=8);
     Load : in std_logic_vector(n-1 downto 0);
     D_data : in std_logic_vector(width-1 downto 0);
     R0,R1,R2,R3,R4,R5,R6,R7: out std_logic_vector(width-1 downto 0);
-    R8,R9,R10,R11,R12,R13,R14,R15: out std_logic_vector(width-1 downto 0);
+    R8,R9,R10,R11,R12,R13,R14,R15: out std_logic_vector(width-1 downto 0)
   );
 end RegisterR16;
 
@@ -53,7 +53,7 @@ component DFF is
            Reset : in STD_LOGIC;
            Load : in STD_LOGIC;
            D : in STD_LOGIC;
-           Q : out STD_LOGIC;
+           Q : out STD_LOGIC
     );
 end component;
 

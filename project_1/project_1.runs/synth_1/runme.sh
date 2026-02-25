@@ -25,7 +25,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/Sebas/62711 Digital Systems/62711 Digital Systems.runs/synth_1'
+HD_PWD='C:/Users/olive/OneDrive/Dokumenter/GitHub/62711-Design-of-digital-systems/project_1/project_1.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
@@ -41,4 +41,4 @@ EAStep()
      fi
 }
 
-EAStep vivado -log Decoder_2to4_Enable.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Decoder_2to4_Enable.tcl
+EAStep vivado -log Datapath.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Datapath.tcl

@@ -27,10 +27,10 @@ ARITH: entity work.Arith_Circ port map(
 
 GEN_OUT: for i in 0 to 7 generate
     J(i) <= arith_res(i) when J_Select(3) = '0'
-       else ((A(i) or  B(i)) and Function_EN(1))
-       or ((A(i) and B(i)) and Function_EN(0))
-       or ((A(i) xor B(i)) and Function_EN(2))
-       or ((not A(i)) and Function_EN(3));
+        else ((A(i) or  B(i)) and Function_EN(1))
+        or ((A(i) and B(i)) and Function_EN(0))
+        or ((A(i) xor B(i)) and Function_EN(2))
+        or ((not A(i)) and Function_EN(3));
 end generate;
 
 -- Flags only relevant for arithmetic because of full adder

@@ -24,7 +24,7 @@ eval( EAInclude(ISEJScriptLib) );
 
 
 ISEStep( "vivado",
-         "-log Decoder_2to4_Enable.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Decoder_2to4_Enable.tcl" );
+         "-log Datapath.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Datapath.tcl" );
 
 
 

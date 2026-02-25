@@ -41,5 +41,8 @@ architecture Behavioral of MUX2x1x8 is
 
 begin
 
+GEN_BITS: for i in 0 to 7 generate
+    Y(i) <= R(i) when MUX_Select = '0' else S(i);
+end generate;
 
 end Behavioral;

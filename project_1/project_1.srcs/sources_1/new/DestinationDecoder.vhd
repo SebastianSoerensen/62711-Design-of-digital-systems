@@ -35,7 +35,7 @@ entity DestinationDecoder is
     Port (
         Write : in std_logic;
         DA : in std_logic_vector(3 downto 0);
-        Load : out std_logic_vector(15 downto 0);
+        Load : out std_logic_vector(15 downto 0)
     );
 end DestinationDecoder;
 

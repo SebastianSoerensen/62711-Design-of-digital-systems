@@ -22,3 +22,6 @@
 # Available Virtual  : 10342 MB
 #-----------------------------------------------------------
 source Datapath.tcl -notrace
+create_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:09 . Memory (MB): peak = 663.480 ; gain = 219.789
+ERROR: [Common 17-275] File does not exist [C:/Users/olive/OneDrive/Downloads/Nexys-4-DDR-Master.xdc]
+INFO: [Common 17-206] Exiting Vivado at Wed Feb 25 11:25:37 2026...

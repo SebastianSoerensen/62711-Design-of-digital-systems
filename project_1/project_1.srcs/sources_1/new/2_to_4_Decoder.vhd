@@ -45,8 +45,8 @@ begin
 S0_not <= not S(0);
 S1_not <= not S(1);
 D(0) <= S0_not and S1_not;
-D(1) <= S0 and S1_not;
-D(2) <= S0_not and S1;
-D(3) <= S0 and S1;
+D(1) <= S(0) and S1_not;
+D(2) <= S0_not and S(1);
+D(3) <= S(0) and S(1);
 
 end Behavioral;
