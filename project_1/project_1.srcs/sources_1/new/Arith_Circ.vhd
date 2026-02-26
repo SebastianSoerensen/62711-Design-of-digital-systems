@@ -44,16 +44,18 @@ end Arith_Circ;
 architecture Behavioral of Arith_Circ is
 
 signal Y: std_logic_vector(7 downto 0);
-signal C_in: std_logic_vector(8 downto 0);
+signal carry: std_logic_vector(8 downto 0); -- carry(0)=C_in, carry(8)=C_out
 
 begin
+carry(0) <= C_in; -- connecting port C_in to start of the carry chain
+
 GEN_LOGIC: for i in 0 to 7 generate
     Y(i) <= (not B(i) and S(1)) or (B(i) and S(0));
 end generate;
 GEN_FA: for i in 0 to 7 generate
-    FA : entity work.Full_adder port map(A => A(i), B => Y(i), C_in => C_in(i), S => J(i), C_out => C_in(i+1));
+    FA : entity work.Full_adder port map(A => A(i), B => Y(i), C_in => carry(i), S => G(i), C_out => carry(i+1));
 end generate;
-C <= C_in(8); -- Carry out
-Overflow <= C_in(8) xor C_in(7);
+C_out <= carry(8); -- Carry out
+Overflow <= carry(8) xor carry(7);
 
 end Behavioral;

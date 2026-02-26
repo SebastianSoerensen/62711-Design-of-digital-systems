@@ -3,10 +3,10 @@
 # SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
 # IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
 # SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
-# Start of session at: Thu Feb 26 09:33:26 2026
-# Process ID         : 31092
+# Start of session at: Thu Feb 26 09:24:57 2026
+# Process ID         : 28484
 # Current directory  : C:/Users/olive/OneDrive/Dokumenter/GitHub/62711-Design-of-digital-systems/project_1
-# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent20052 C:\Users\olive\OneDrive\Dokumenter\GitHub\62711-Design-of-digital-systems\project_1\project_1.xpr
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent31964 C:\Users\olive\OneDrive\Dokumenter\GitHub\62711-Design-of-digital-systems\project_1\project_1.xpr
 # Log file           : C:/Users/olive/OneDrive/Dokumenter/GitHub/62711-Design-of-digital-systems/project_1/vivado.log
 # Journal file       : C:/Users/olive/OneDrive/Dokumenter/GitHub/62711-Design-of-digital-systems/project_1\vivado.jou
 # Running On         : Oliver-PC
@@ -19,7 +19,7 @@
 # Host memory        : 25414 MB
 # Swap memory        : 9126 MB
 # Total Virtual      : 34541 MB
-# Available Virtual  : 8419 MB
+# Available Virtual  : 8569 MB
 #-----------------------------------------------------------
 start_gui
 open_project C:/Users/olive/OneDrive/Dokumenter/GitHub/62711-Design-of-digital-systems/project_1/project_1.xpr
@@ -43,7 +43,7 @@ WARNING: [Project 1-5713] Board part '' set for the project  is not found. Board
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/AMDDesignTools/2025.2/Vivado/data/ip'.
-open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:06 . Memory (MB): peak = 1798.109 ; gain = 171.766
+open_project: Time (s): cpu = 00:00:37 ; elapsed = 00:00:23 . Memory (MB): peak = 1766.934 ; gain = 165.207
 update_compile_order -fileset sources_1
 exit
-INFO: [Common 17-206] Exiting Vivado at Thu Feb 26 09:37:29 2026...
+INFO: [Common 17-206] Exiting Vivado at Thu Feb 26 09:27:42 2026...
