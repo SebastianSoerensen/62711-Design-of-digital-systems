@@ -1,0 +1,49 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Thu Feb 26 09:33:26 2026
+# Process ID         : 31092
+# Current directory  : C:/Users/olive/OneDrive/Dokumenter/GitHub/62711-Design-of-digital-systems/project_1
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent20052 C:\Users\olive\OneDrive\Dokumenter\GitHub\62711-Design-of-digital-systems\project_1\project_1.xpr
+# Log file           : C:/Users/olive/OneDrive/Dokumenter/GitHub/62711-Design-of-digital-systems/project_1/vivado.log
+# Journal file       : C:/Users/olive/OneDrive/Dokumenter/GitHub/62711-Design-of-digital-systems/project_1\vivado.jou
+# Running On         : Oliver-PC
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26100
+# Processor Detail   : 13th Gen Intel(R) Core(TM) i7-13620H
+# CPU Frequency      : 2918 MHz
+# CPU Physical cores : 10
+# CPU Logical cores  : 16
+# Host memory        : 25414 MB
+# Swap memory        : 9126 MB
+# Total Virtual      : 34541 MB
+# Available Virtual  : 8419 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/olive/OneDrive/Dokumenter/GitHub/62711-Design-of-digital-systems/project_1/project_1.xpr
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/olive/OneDrive/Dokumenter/GitHub/62711-Design-of-digital-systems/project_1'
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vrk160:part0:1.0 available at C:/AMDDesignTools/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vrk160\1.0\board.xml as part xcvr1602-vsva2488-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vrk160:part0:1.1 available at C:/AMDDesignTools/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vrk160\1.1\board.xml as part xcvr1602-vsva2488-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/AMDDesignTools/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu208ld\production\2.0\board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/AMDDesignTools/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu216ld\production\2.0\board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/AMDDesignTools/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu670ld\1.0\board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/olive/OneDrive/Dokumenter/GitHub/62711-Design-of-digital-systems/project_1/project_1.gen/sources_1'.
+WARNING: [filemgmt 56-3] IPUserFilesDir: Could not find the directory 'C:/Users/olive/OneDrive/Dokumenter/GitHub/62711-Design-of-digital-systems/project_1/project_1.ip_user_files'.
+Scanning sources...
+Finished scanning sources
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vrk160:part0:1.0 available at C:/AMDDesignTools/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vrk160\1.0\board.xml as part xcvr1602-vsva2488-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vrk160:part0:1.1 available at C:/AMDDesignTools/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vrk160\1.1\board.xml as part xcvr1602-vsva2488-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/AMDDesignTools/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu208ld\production\2.0\board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/AMDDesignTools/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu216ld\production\2.0\board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/AMDDesignTools/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu670ld\1.0\board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Project 1-5713] Board part '' set for the project  is not found. BoardPart property will be unset. Please select board from latest repo build 
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/AMDDesignTools/2025.2/Vivado/data/ip'.
+open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:06 . Memory (MB): peak = 1798.109 ; gain = 171.766
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Feb 26 09:37:29 2026...
